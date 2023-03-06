@@ -5,9 +5,9 @@ from django.utils import timezone
 # Create your models here.
 
 LISTA_CATEGORIA = (
-    ("ANALISE", "Análise"), # armazenar no bd, aparecer_pro_usuario
+    ("ANALISE", "Análise"), #armazenar no bd, aparecer_pro_usuario
     ("PROGRAMACAO", "Programação"),
-    ("APRESENTACAO", "Apresentação")
+    ("APRESENTACAO", "Apresentação"),
     ("OUTROS", "Outros")
 )
 
