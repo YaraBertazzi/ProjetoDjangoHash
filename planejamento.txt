@@ -6,7 +6,7 @@
     - Filmes já vistos
     - Editar Perfil
 
-- Filmes/Séries
+- Filmes/Séries  # 1 coisa que vamos fazer model.py
     - thumb
     - titulo
     - descrição
@@ -18,3 +18,11 @@
         - titulo
 
 - Barra de Pesquisa
+
+
+# makemigrations e migrate atualiza a base de dados
+
+SUPER USUARIO:
+Username (leave blank to use 'usuario'): yarabertazzi28@gmail.com
+Email address: yarabertazzi@gmail.com
+Password: 1234
