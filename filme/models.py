@@ -20,6 +20,10 @@ class Filme(models.Model):
     vizualizacoes = models.IntegerField(default=0) # para todos os filmes a vizualização se inicia em 0
     data_criacao = models.DateTimeField(default=timezone.now) # para cada filme, ele vai preencher automatio com a data e hora que for salvo
 
+    # qual objeto de string dessa classe
+    def __str__(self):
+        return self.titulo
+
 
 # Criar episodios
 

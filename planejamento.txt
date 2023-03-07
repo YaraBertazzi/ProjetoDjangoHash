@@ -26,3 +26,8 @@ SUPER USUARIO:
 Username (leave blank to use 'usuario'): yarabertazzi28@gmail.com
 Email address: yarabertazzi@gmail.com
 Password: 1234
+
+
+dentro do app vamos criar: url - views - templates
+
+criar uma view para cada url - para cada view criamos um template.
