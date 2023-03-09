@@ -31,3 +31,6 @@ Password: 1234
 dentro do app vamos criar: url - views - templates
 
 criar uma view para cada url - para cada view criamos um template.
+
+Criar uma pasta de template na raiz do projeto para ter um temple base,
+criar um pasta template dentros dos app para personalizar as paginas daquele app

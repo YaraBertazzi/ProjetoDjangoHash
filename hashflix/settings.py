@@ -55,7 +55,7 @@ ROOT_URLCONF = 'hashflix.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -118,14 +118,13 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATICFILES_DIR = [
-    BASE_DIR /"static",
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
 ]
-
 
 MEDIA_URL = 'media/'
 
-MEDIA_ROOT =  BASE_DIR /"media"
+MEDIA_ROOT = BASE_DIR / "media"
 
 
 # Default primary key field type
